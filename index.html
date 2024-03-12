@@ -1,12 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="Estilos/Index.css">
+    <title>Monster Energy</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Fugaz+One&display=swap');
+    </style>
 </head>
+
 <body>
-    <h1>RAMADAN</h1>
-    <h2>SOS</h2>
+    <header class="barra">
+        <div>
+            <img class="logo" src="Assets/logo.png" alt="logo">
+            <nav>
+                <h1 class="tituloBody">MONSTER ENERGY</h1>
+                <ul class="nav">
+                    <li><a href="#inicio">INICIO</a></li>
+                    <li><a href="#lomas">LO MÁS VENDIDO</a></li>
+                    <li><a href="#prod">PRODUCTOS DESTACADOS</a></li>
+                    <li><a href="#contact">CONTACTO</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="divinicio">
+        <h1 class="inicio" id="inicio">INICIO</h1>
+        <img id="foto" src="Assets/fotoinicio.webp" alt="Foto inicial">
+        <p class="lorem">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem consequatur at dolores natus
+            iusto voluptatibus quis nemo nisi sequi architecto eum illo dolore reiciendis blanditiis atque assumenda
+            accusantium, obcaecati facilis?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, provident.
+            Voluptatem vel, facere ex quas iusto cupiditate consequuntur quam quibusdam libero, excepturi assumenda odit
+            quos tenetur temporibus recusandae corrupti perferendis.</p>
+    </div>
+    <section id="productos">
+        <div class="divvendido">
+            <h1 class="lomas" id="lomas">LO MÁS VENDIDO</h1>
+            <div align="center" class="contenidoBody">
+                <div class="productos">
+                        <img class="imgBody" src="Assets/lata_1.webp" alt="">
+                </div>
+                <div class="productos">
+                        <img class="imgBody" src="Assets/lata_2.webp" alt="">
+                    
+                </div>
+                <div class="productos">
+                        <img class="imgBody" src="Assets/lata-3.webp" alt="">
+                    
+                </div>
+                <div class="productos">
+                        <img class="imgBody" src="Assets/lata_4.webp" alt="">
+                    
+                </div>
+                <div class="productos">
+                        <img class="imgBody" src="Assets/lata_5.webp" alt="">
+                    
+                </div>
+                <div class="productos">
+                        <img class="imgBody" src="Assets/lata_6.webp" alt="">
+                    
+                </div>
+            </div>
+        </div>
+        <h1 class="subtituloBody" id="prod">PRODUCTOS DESTACADOS</h1>
+        <div align="center" class="contenidoBody1">
+            <img class="imcB2" src="Assets/logo1.webp" alt="">
+            <img class="imcB2" src="Assets/me1.webp" alt="">
+            <img class="imcB2" src="Assets/me2.webp" alt="">
+            <img class="imcB2" src="Assets/me3.webp" alt="">
+            <img class="imcB2" src="Assets/me4.webp" alt="">
+            <img class="imcB2" src="Assets/me5.webp" alt="">
+        </div>
+        <p id="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam laudantium doloribus maiores
+            dolores quas commodi perferendis exercitationem et minus. Illo error dolor culpa sint corporis illum
+            corrupti minus totam commodi.</p>
+        <div align="center" class="contenidoBody1">
+            <img src="Assets/logo2.webp" alt="">
+            <img class="imcB2" src="Assets/mu1.webp" alt="">
+            <img class="imcB2" src="Assets/mu2.webp" alt="">
+            <img class="imcB2" src="Assets/mu3.webp" alt="">
+            <img class="imcB2" src="Assets/mu4.webp" alt="">
+            <img class="imcB2" src="Assets/mu5.webp" alt="">
+        </div>
+        <p id="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam laudantium doloribus maiores
+            dolores quas
+            commodi perferendis exercitationem et minus. Illo error dolor culpa sint corporis illum corrupti minus totam
+            commodi.</p>
+        <div align="center" class="contenidoBody1">
+            <img class="imcB2" src="Assets/logo3.webp" alt="">
+            <img class="imcB2" src="Assets/mj1.webp" alt="">
+            <img class="imcB2" src="Assets/mj2.webp" alt="">
+            <img class="imcB2" src="Assets/mj3ç.webp" alt="">
+            <img class="imcB2" src="Assets/mj4.webp" alt="">
+            <img class="imcB2" src="Assets/mj5.webp" alt="">
+        </div>
+        <p id="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam laudantium doloribus maiores
+            dolores quas commodi perferendis exercitationem et minus. Illo error dolor culpa sint corporis illumcorrupti
+            minus totam commodi.</p>
+        <h1 class="contact" id="contact">CONTACTO</h1>
+        <form class="formulario">
+            <label for="nombre">NOMBRE:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">EMAIL:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensaje">MENSAJE:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" cols="40" required></textarea>
+            <button type="submit">ENVIAR</button>
+        </form>
+    </section>
 </body>
+<footer>
+    <img class="logofin" src="Assets/logofinfinal2.png" alt="">
+    <h3 class="logofinname">Monster Inc.</h3>
+</footer>
 </html>

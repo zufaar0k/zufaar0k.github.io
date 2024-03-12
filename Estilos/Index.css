@@ -1,0 +1,290 @@
+html {
+    background-color: black;
+}
+
+.barra {
+    overflow: hidden;
+    background-color: rgb(55, 209, 16);
+    position: sticky;
+    top: 0;
+    box-sizing: border-box;
+    width: 100%;
+    z-index: 100;
+}
+
+.barra ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Fugaz One', sans-serif;
+    font-size: 28px;
+}
+
+.barra li {
+    display: inline;
+    margin-right: 30px;
+}
+
+.barra a {
+    color: white;
+    text-decoration: none;
+}
+.nombrelata{
+    color: white;
+    font-family: 'Fugaz One', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.barra a:hover {
+    box-shadow: 0px -1px 50px 0px rgb(0, 0, 0);
+    border-top-left-radius: 70%;
+    border-bottom-right-radius: 70%;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+    transition-duration: 700ms;
+}
+
+.barra h1 {
+    float: center;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#foto {
+    position: relative;
+    height: 400px;
+    margin-left: 350px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+* {
+    margin: auto;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.logo {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 110px;
+    transform: scale(2.5);
+    position: absolute;
+    margin-left: 70px;
+    padding: 20px;
+    z-index: 100;
+}
+
+.logo:hover {
+    transform: scale(2.85);
+    transition-duration: 350ms;
+}
+
+.imglogo {
+    margin-left: 30px;
+    margin-top: 5px;
+    width: 60px;
+}
+
+.tituloBody {
+    font-family: 'Fugaz One', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 0px 0px 30px rgb(0, 0, 0);
+}
+
+.lorem {
+    float: right;
+    width: 600px;
+    margin-right: 120px;
+    text-shadow: 0px 0px 10px rgb(64, 255, 0);
+}
+
+.inicio {
+    font-family: 'Fugaz One', sans-serif;
+    font-size: 38px;
+    padding: 60px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 30px;
+    text-shadow: 0px 0px 10px rgb(64, 255, 0);
+}
+
+
+.inicio:first-letter {
+    color: greenyellow;
+    font-size: 52px;
+}
+
+.lomas {
+    font-family: 'Fugaz One', sans-serif;
+    font-size: 38px;
+    text-align: center;
+    color: #ffffff;
+    padding: 100px;
+}
+
+.lomas:first-letter {
+    color: greenyellow;
+    font-size: 52px;
+}
+
+.contact {
+    font-family: 'Fugaz One', sans-serif;
+    font-size: 38px;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 50px;
+    text-shadow: 0px 0px 10px rgb(64, 255, 0);
+}
+
+.contact:first-letter {
+    color: greenyellow;
+    font-size: 52px;
+}
+
+.subtituloBody {
+    font-family: 'Fugaz One', sans-serif;
+    font-size: 38px;
+    padding: 30px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 50px;
+    text-shadow: 0px 0px 10px rgb(64, 255, 0);
+}
+
+.subtituloBody:first-letter {
+    color: greenyellow;
+    font-size: 52px;
+}
+
+.contenidoBody {
+    margin: auto;
+    padding: auto;
+}
+
+.nombre {
+    color: rgb(89, 255, 0);
+    text-align: center;
+}
+
+.productos {
+    display: inline-block;
+    margin-bottom: 150px;
+    padding: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 2.5px solid #0fd83bfe;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px 10px 22px 0px rgb(51, 255, 0);
+    width: 180px;
+    height: 250px;
+    border-radius: 10%;
+}
+
+.productos:hover {
+    scale: 1.095;
+    transition-duration: 200ms;
+    transform: rotate(2deg);
+}
+
+.imgBody {
+    margin-top: -95px;
+    margin-left: -10px;
+    height: 225px;
+    width: 90px;
+}
+
+
+.imcB2 {
+    height: 200px;
+    padding: 20px;
+}
+
+p {
+    color: #f1f1f1;
+    width: 50%;
+    font-size: 20px;
+    font-family: 'Fugaz One', sans-serif;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.formulario {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 0px rgba(201, 0, 0, 0.1);
+    margin: 100px;
+    margin-right: 300px;
+    margin-left: 300px;
+    font-family: 'Fugaz One', sans-serif;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #4caf50;
+    outline: none;
+    box-shadow: 0 0 20px rgba(30, 169, 35, 0.7);
+}
+
+button {
+    background-color: #007204;
+    color: #000000;
+    padding: 10px 15px;
+    border: solid 1px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Fugaz one', sans-serif;
+}
+
+button:hover {
+    background-color: #00ae06;
+}
+
+.logofin{
+    width: 70px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-right: 22px;
+}
+
+footer{
+    position: relative;
+    margin-right: 20px;
+    font-family: 'Fugaz one', sans-serif;
+}
+.logofinname{
+    color: white;
+    position: absolute;
+    right: 0;
+    text-shadow: 0px 0px 10px rgb(64, 255, 0);
+}
